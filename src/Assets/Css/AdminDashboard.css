@@ -1,0 +1,17 @@
+.chart-container {
+    margin-top: 20px;
+    width: 100%;
+    max-width: 800px;
+}
+
+@media (max-width: 768px) {
+    .chart-container {
+        max-width: 100%;
+    }
+}
+
+@media (max-width: 768px) {
+    .bike-buttons button {
+        flex: 1 1 100%;
+    }
+}
